@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /lab4arqui
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.+)$ ?url=$1 [L]

@@ -1,0 +1,16 @@
+Proyecto académico para implementar Restful Routing utilizando PHP orientado a objetos
+
+	Para el correcto funcionamiento es necesario:
+	- modificar los archivos de configuración del servidor Apache, para implementar exitosamente Restful routing
+	tomamos ventaja del redireccionamiento de Apache a los errores 404 y 403, por ende, debemos modificar el archivo
+	httpd-multilang-errordoc.conf encontrado dentro de /lampp/etc/extra. Es necesario modificar las lineas 37 y 38 las
+	cuales contienen el redireccionamiento de los errores mencionados con anterioridad.
+	- crear la base de datos, incluida en el archivo bd.sql
+
+	Se incluyen screenshots de las rutas pedidas menos las de create, update y destroy porque son acciones intantáneas donde la pantalla no se detiene.
+
+	
+	Realizado por:
+	Rafael Garcia G.
+	Humberto Garza
+	Alan Gandarilla
